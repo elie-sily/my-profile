@@ -2,7 +2,7 @@
 */
 body{
 	background-color: #E8E8E8;
-	color:rgb(50,50,50)
+	color:rgb(50,50,50);
 	font-family: helvetica;
 	font-size: 16px;
 
@@ -11,7 +11,7 @@ h1, h2,h3{
 	font-family: courier;
 }
 h1{
-	color: red
+	color: red;
 	font-family: courier;
 	font-size: 32px;
 }
@@ -56,14 +56,15 @@ a:hover {
 		width: 700px;
 	}
 }
-@media (max-width: 760px)
+@media (max-width: 760px){
    .container {
-   	width: 600px
+   	width: 600px;
    }
+}
 
 @media (max-width: 500px){
 	.container{
-		width: 400px
+		width: 400px;
 	}
 }   
 
