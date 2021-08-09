@@ -1,12 +1,15 @@
-/.colors and fonts./
-
+/*/.colors and fonts./
+*/
 body{
-	backgroung:rgb(230,230,230)
+	background-color: #E8E8E8;
 	color:rgb(50,50,50)
 	font-family: helvetica;
 	font-size: 16px;
-}
 
+}
+h1, h2,h3{
+	font-family: courier;
+}
 h1{
 	color: red
 	font-family: courier;
@@ -14,28 +17,39 @@ h1{
 }
 
 h2{
-	color: rgb(100,100,100);
+	color: green;
 	font-family: courier;
 	font-size: 24px;
 	font-weight: lighter;
 }
 
 a{
-	text-decoration: none;
-	color: red;
+	/*text-decoration: none;
+	color: red;*/
+ width: 250px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
 }
 a:hover {
-	color: yellow;
+    background: black;
+
 }
 
 
 
-/ custom design with class/
+/*custom design with class
+*/
 
-
-.comtainer{
-	width: 700xp
-	margin: 40xp auto;
+.container{
+	width: 700px;
+	margin: 40px auto;
 }
 @media (max-width: 960px) {
 	.container{
@@ -55,10 +69,10 @@ a:hover {
 
 
 .card-white{
-	background-color: white
-    padding: 40xp;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0,1)
-    border-radius: 4 px;
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,1);
+    border-radius: 4px;
     margin: 20px ;
     text-align: center;
 }
@@ -86,4 +100,13 @@ a:hover {
 .list-inline i{
 	font-size: 50px
 	color: rgb(230,230,230);
+}
+
+.image-size{
+	width:100px;
+}
+
+.box-design{
+    box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	margin-top:25px;
 }
